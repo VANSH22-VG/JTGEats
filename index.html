@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel = "stylesheet" href = "./css/style2.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <title>JTGeats</title>
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <div class="back">
+      <nav>
+        <div class="logo">
+          <img class="jtg" src="./Assets/icons/Logo.svg" />
+        </div>
+        <div class="middle">
+          <span class="text"> Home</span>
+          <span class="text"> About</span>
+          <span class="text"> Menu</span>
+          <span class="text"> Blog</span>
+          <span class="text"> Contact</span>
+        </div>
+        <div class="end">
+          <img class="text" src="./Assets/icons/Search.svg" />
+          <img class="text" id ="myBtn" src="./Assets/icons/Cart.svg" />
+          <!-- <div class = "hidden" id = "hid"> -->
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <img src="./Assets/icons/Cart.svg">
+              <h5> Cart is Empty</h5>
+              <p>Add some items to the cart to checkout</p>
+              <button class="close"> Back to Menu</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Landing-->
+      <div class="landing">
+        <h5> Authentic Home food in India </h5>
+        <p>
+          JTGeats is a courier service in which authentic home cook food
+          is delivered to a customer.
+        </p>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input
+              class="line"
+              type="text"
+              placeholder="Search food you love"
+              name="Search"
+            />
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./Assets/icons/cooking.svg" />
+      </div>
+    </div>
+
+    <!-- Card -->
+    <div class="Menu">
+      <p class="MenuHead">Home Kitchen</p>
+      <div class="productCard">
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_MqT0asuoIcU.png"
+            alt="Pizza"
+          />
+          <div class = "discount">
+            50%
+          </div>
+          <h3 class="cardHead">
+            Pineapple Pizza &ensp;&emsp;&emsp; &emsp; &emsp; ₹190
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/pexels-mumma-oyens-8799602 1.png"
+            alt="Pizza"
+          />
+          <h3 class="cardHead">
+            Chilli Chicken &ensp;&emsp;&emsp; &emsp; &emsp; &emsp; ₹123
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/pexels-omar-mahmood-106343 1.png"
+            alt="Pizza"
+          />
+          <div class = "discount">
+            20%
+          </div>
+          <h3 class="cardHead">
+            Tandoori Chicken &ensp;&emsp;&emsp; &emsp; &emsp; ₹190
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_Y6OgisiGBjM.png"
+            alt="Pizza"
+          />
+          <h3 class="cardHead">
+            Veggie Delight Pizza &ensp;&emsp;&emsp; &emsp;  ₹190
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+      </div>
+      <div class="productCard">
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_nP11TkjxJ7s.png"
+            alt="Pizza"
+          />
+          <div class = "discount">
+            50%
+          </div>
+          <h3 class="cardHead">
+            Peri-peri Pizza &ensp;&emsp;&emsp; &emsp; &emsp; &emsp; ₹290
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_60nzTP7_hMQ.png"
+            alt="Pizza"
+          />
+          <h3 class="cardHead">
+            Basil and Burrata Pizza &ensp;&emsp;&emsp;  ₹600
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_sejqj6Eaqe8.png"
+            alt="Pizza"
+          />
+          <div class = "discount">
+            20%
+          </div>
+          <h3 class="cardHead">
+            Pasta Pizza &ensp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; ₹450
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_33GPuoFI7v8.png"
+            alt="Pizza"
+          />
+          <div class = "discount">
+            50%
+          </div>
+          <h3 class="cardHead">
+            Bacon Pizza &ensp;&emsp;&emsp; &emsp; &emsp; &emsp;&emsp; ₹500
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+      </div>
+      <div class="productCard">
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_MqT0asuoIcU.png"
+            alt="Pizza"
+          />
+          <div class = "discount">
+            50%
+          </div>
+          <h3 class="cardHead">
+            Onion Pizza &ensp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp; ₹250
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_UxRhrU8fPHQ.png"
+            alt="Pizza"
+          />
+          <h3 class="cardHead">
+            Home made pizza &ensp;&emsp;&emsp; &emsp; &emsp; ₹190
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_CbNAuxSZTFo.png"
+            alt="Pizza"
+          />
+          <div class = "discount">
+            20%
+          </div>
+          <h3 class="cardHead">
+            Veggie Pizza &ensp;&emsp;&emsp; &emsp; &emsp;&emsp;&emsp; ₹490
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="pizza"
+            src="./Assets/images/unsplash_Y6OgisiGBjM.png"
+            alt="Pizza"
+          />
+          <h3 class="cardHead">
+            Farmhouse Pizza &ensp;&emsp;&emsp; &emsp; &emsp; ₹300
+          </h3>
+          <div class="details">
+            <p class="star"><img src="./Assets/icons/star.svg" /> 4.7</p>
+            <p class="time">50-79 min</p>
+            <p><img class="plus" src="./Assets/icons/plus.svg" /></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- POPULAR ITEMS -->
+      <div class = "popular">
+        <h2> Popular Items</h2>
+        
+        <div class="slide-container swiper">
+          <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                  <div class="card2 swiper-slide">
+                          <div class="card-image">
+                              <img src="./Assets/images/unsplash_MqT0asuoIcU.png" alt="" class="card-img">
+                          </div>
+                          <h3 class="card_Head">
+                              Home made pizza &ensp;&emsp;&emsp; &emsp; ₹190
+                          </h3>
+                          <div class="details2">
+                          <p class="star2"><img src="./Assets/icons/star.svg" /> 4.7</p>
+                          <p class="time2">50-79 min</p>
+                          <p><img class="plus2" src="./Assets/icons/plus.svg" /></p>
+                          </div>
+                  </div>
+                  <div class="card2 swiper-slide">
+                      <div class="card-image">
+                          <img src="./Assets/images/pexels-omar-mahmood-106343 1.png" alt="" class="card-img">
+                          <div class = "discount">
+                              20%
+                            </div>
+                      </div>
+                      <h3 class="card_Head">
+                          Tandoori Chicken &ensp;&emsp;&emsp; &emsp; ₹184
+                      </h3>
+                      <div class="details2">
+                      <p class="star2"><img src="./Assets/icons/star.svg" /> 4.3</p>
+                      <p class="time2">15-29 min</p>
+                      <p><img class="plus2" src="./Assets/icons/plus.svg" /></p>
+                      </div>
+                  </div>
+                  <div class="card2 swiper-slide">
+                      <div class="card-image">
+                          <img src="./Assets/images/pexels-mumma-oyens-8799602 1.png" alt="" class="card-img">
+                          <div class = "discount">
+                              50%
+                            </div>
+                      </div>
+                      <h3 class="card_Head">
+                          Chilli Chicken  &ensp;&emsp;&emsp; &emsp; &emsp; &ensp; ₹116
+                      </h3>
+                      <div class="details2">
+                      <p class="star2"><img src="./Assets/icons/star.svg" /> 4.3</p>
+                      <p class="time2">30-40 min</p>
+                      <p><img class="plus2" src="./Assets/icons/plus.svg" /></p>
+                      </div>
+                  </div>
+                  <div class="card2 swiper-slide">
+                  <div class="card-image">
+                      <img src="./Assets/images/unsplash_CbNAuxSZTFo.png" alt="" class="card-img">
+                  </div>
+                  <h3 class="card_Head">
+                      Home made pizza &ensp;&emsp;&emsp; &emsp; ₹190
+                  </h3>
+                  <div class="details2">
+                  <p class="star2"><img src="./Assets/icons/star.svg" /> 4.7</p>
+                  <p class="time2">50-79 min</p>
+                  <p><img class="plus2" src="./Assets/icons/plus.svg" /></p>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          <!-- <div class="right"> -->
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <!-- </div> -->
+          <!-- <div class = "left"> -->
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <!-- </div> -->
+          </div>
+
+          <button class="btn3" id = "dish" type="submit">Request a Dish</button>
+        <div id="mineModal" class="modal2">
+          <div class="modal-content2">
+            <h4> Request a Dish</h4>
+            <div class ="forms">
+              <form>
+                <h5>Name*</h5>
+                <input
+                  class="dishName"
+                  type="text"
+                  placeholder="Enter name of the dish"
+                  name="Search"
+                />
+                <h5>Upload an image</h5>
+                <input
+                  class="dishName"
+                  type="email"
+                  placeholder="Paste a URL"
+                  name="Search"
+                />
+                <div class = "dishBtn">
+                <button class="btn4 ends" type="submit">Cancel</button>
+                <button class="btn5 ends" type="submit">Submit Request</button>
+                </div>
+              </form>
+            </div>
+            </form>
+          </div>
+        </div>
+        </div>
+        
+    <!-- VIDEO -->
+    <div class ="video">
+      <div class ="videoHeading">
+      <h2>We are providing best </h2>
+      <h2>home cooked food delivery service.</h2>
+      <p>Away from home and craving the tasty homemade recipes? </p>
+       <p>Choose from a selection of our delicious home cooked dishes </p>
+    </div>
+      <video id="sample_video"  width="877" height="442" class ="vids" controls>
+      <source src="./Assets/vid.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class = "green"></div>
+
+    <!-- QUESTIONNAIRE -->
+    <div class = "question">
+      <div class = "heading">
+      <h3> Do you have a question </h3>
+        <h3>or want to become a seller?</h3>
+      <p class ="manager"> Fill this form and our manager will contact you next 48 hours.</p>
+      <div class ="forms">
+        <form>
+          <input
+            class="box1"
+            type="text"
+            placeholder="Your Name"
+            name="Search"
+          />
+          <input
+            class="box2"
+            type="email"
+            placeholder="Your e-mail"
+            name="Search"
+          />
+          <textarea rows="20" cols="50" class="box3" placeholder="Your message"></textarea>
+          <button class="btn2" type="submit">Submit</button>
+        </form>
+      </div>
+      </div>
+      <div class ="image2">
+        <img src="./Assets/icons/Food delivery illustration.svg">
+      </div>
+    </div>
+    
+
+    <!-- FOOTER -->
+  <div class = "foot">
+    <footer>
+      <div class="logo">
+        <img class="jtg" src="./Assets/icons/Logo.svg" />
+      </div>
+      <div class="middle">
+        <span class="text"> Home</span>
+        <span class="text"> About</span>
+        <span class="text"> Menu</span>
+        <span class="text"> Blog</span>
+        <span class="text"> Contact</span>
+      </div>
+      <div class="end">
+        <img class="text social" src="./Assets/icons/Facebook.svg" />
+        <img class="text social" src="./Assets/icons/instagram.svg" />
+      </div>
+    </footer>
+    <div class = "linebreak"></div>
+  </div>
+  <script src ="./js/script.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/slider.js"></script>
+</body>
+</html>

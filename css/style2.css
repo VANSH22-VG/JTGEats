@@ -1,0 +1,131 @@
+.slide-container{
+  max-width: 983px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card2{
+  background-color: #FFF;
+  margin: 20px 10px 0 10px;
+    border-radius: 10px;
+    height: 337px !important;
+    width: 277px !important;
+    position: relative;
+}
+.card-image{
+  position: relative;
+  height: 250px;
+  width: 277px;
+  
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+}
+details2 p{
+    display: inline-block;
+}
+.star2{
+    background: #F7F8FA;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    margin: 0px 10px 0 13px;
+    padding: 0px 6px 0px 6px;
+    font-size: 12px;
+    width: 48px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.time2{
+    color: #1B1C21;
+    background: #f7f8fa;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 25%);
+    border-left: 4px solid #bebebe;
+    border-right: 4px solid #bebebe;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 1px;
+    width: 67px;
+    height: 20px;
+    position: relative;
+    left: 80px;
+    top: -23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.plus2{
+    border-radius: 7px;
+    margin-left: 66px;
+    position: relative;
+    left: 152px;
+    top: -61px;
+    width: 22px;
+    height: 20px;
+}
+.card_Head{
+    font-size:16px;
+    letter-spacing: -0.012em;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+.details{
+    margin: -17px 5px 2px 5px;
+}
+.right{
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #1AC073;
+    width: 71.5px;
+    height: 71.5px;
+    position: fixed;
+    left: 1216.5px;
+    top: 273.75px;
+}
+.left{
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #1AC073;
+    width: 71.5px;
+    height: 71.5px;
+    position: fixed;
+    top: 273.75px;
+    left: 71.5px;
+}
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.0s ease;
+ } 
+.swiper-navBtn:hover{
+    /* background-color: #1AC073; */
+    color: #fff;
+    border: none;
+}
+.right:hover,
+.left:hover{
+    background-color: #1AC073;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+    color: #1AC073 !important;
+    right: 0 !important;
+    margin-right: 0px;
+}
+.swiper-button-prev{
+    color: #1AC073 !important;
+    left: 0 !important;
+    margin-left: 16px;
+}
